@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		942969032C6D093E003FF522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942969022C6D093E003FF522 /* AppDelegate.m */; };
-		942969062C6D093E003FF522 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942969052C6D093E003FF522 /* SceneDelegate.m */; };
-		942969092C6D093E003FF522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942969082C6D093E003FF522 /* ViewController.m */; };
 		9429690C2C6D093E003FF522 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9429690B2C6D093E003FF522 /* Base */; };
 		9429690E2C6D0941003FF522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9429690D2C6D0941003FF522 /* Assets.xcassets */; };
 		942969112C6D0941003FF522 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 942969102C6D0941003FF522 /* Base */; };
 		942969142C6D0941003FF522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942969132C6D0941003FF522 /* main.m */; };
+		9429691C2C6D09FC003FF522 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429691B2C6D09FC003FF522 /* TabBarController.m */; };
+		9429691F2C6D0A30003FF522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9429691E2C6D0A30003FF522 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		942968FE2C6D093E003FF522 /* demo_tabbar_disappear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_tabbar_disappear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942969012C6D093E003FF522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		942969022C6D093E003FF522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		942969042C6D093E003FF522 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		942969052C6D093E003FF522 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		942969072C6D093E003FF522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		942969082C6D093E003FF522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9429690B2C6D093E003FF522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9429690D2C6D0941003FF522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942969102C6D0941003FF522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		942969122C6D0941003FF522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		942969132C6D0941003FF522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9429691A2C6D09FC003FF522 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		9429691B2C6D09FC003FF522 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		9429691D2C6D0A30003FF522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9429691E2C6D0A30003FF522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +63,15 @@
 			children = (
 				942969012C6D093E003FF522 /* AppDelegate.h */,
 				942969022C6D093E003FF522 /* AppDelegate.m */,
-				942969042C6D093E003FF522 /* SceneDelegate.h */,
-				942969052C6D093E003FF522 /* SceneDelegate.m */,
-				942969072C6D093E003FF522 /* ViewController.h */,
-				942969082C6D093E003FF522 /* ViewController.m */,
 				9429690A2C6D093E003FF522 /* Main.storyboard */,
 				9429690D2C6D0941003FF522 /* Assets.xcassets */,
 				9429690F2C6D0941003FF522 /* LaunchScreen.storyboard */,
 				942969122C6D0941003FF522 /* Info.plist */,
 				942969132C6D0941003FF522 /* main.m */,
+				9429691A2C6D09FC003FF522 /* TabBarController.h */,
+				9429691B2C6D09FC003FF522 /* TabBarController.m */,
+				9429691D2C6D0A30003FF522 /* ViewController.h */,
+				9429691E2C6D0A30003FF522 /* ViewController.m */,
 			);
 			path = demo_tabbar_disappear;
 			sourceTree = "<group>";
@@ -146,10 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942969092C6D093E003FF522 /* ViewController.m in Sources */,
+				9429691C2C6D09FC003FF522 /* TabBarController.m in Sources */,
 				942969032C6D093E003FF522 /* AppDelegate.m in Sources */,
+				9429691F2C6D0A30003FF522 /* ViewController.m in Sources */,
 				942969142C6D0941003FF522 /* main.m in Sources */,
-				942969062C6D093E003FF522 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +306,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
