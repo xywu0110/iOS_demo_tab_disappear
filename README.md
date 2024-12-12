@@ -10,3 +10,5 @@ The key part of the logic is in the method ‘onTapPresentAndCloseSelf:’, when
 
 ## Solution
 As I demonstrated in the comments, one way to avoid this problem is to set 'animated' to NO, another is to manipulate the page stack directly (which I think makes more sense in scenarios like this).
+
+# Additional issues
